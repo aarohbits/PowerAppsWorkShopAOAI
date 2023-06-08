@@ -1,32 +1,12 @@
 # PowerAppsWorkShopAOAI
-# My Title
-## My title
-### My title
-#### My title
+# Step 1: CCreate Power Apps Canvas
 
-This is normal text
+•	You will build a Power Apps canvas apps 
+•	Use different controls such as 
+1. Text labels 
+2.	Textbox 
+3. Buttons
 
-**Bold**
-
-_Italics_
-
-***bold and italics***
-
-> This is my quote 
-
->> This is my qoute
->> this is 2nd quote 
-
-1. Item 1
-2. Item 2
-3. Item 3
-
-- Item 1
-- Item 2
-- Item 3
-```
-printf("Hello World")
-```
 ![PowerApps Canvas](<images/01 Power Apps Canvas Controls.png>)
 *** 
 

@@ -47,6 +47,8 @@ d)	France Central
 
 ![PowerApps Canvas](<images/01 Power Apps Canvas Controls.png>)
 *** 
+Local
+![Test Local ](01SimplePowerAppswithAzureOpenAISample/images/01CanvasApp.jpg)
 
 
 

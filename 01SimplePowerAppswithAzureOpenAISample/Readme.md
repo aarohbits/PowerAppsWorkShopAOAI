@@ -60,11 +60,15 @@ Nagivate to the Azure portal, under playground select **Compleltions** >> Select
 
 Copy the Endpoint and Key from Azure OpenAI service
 
+![08 View Code](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/f1c4ec94-af8e-4aec-8b28-c49e28defebd)
 
 
 # Step 9
 
 Copy the URL to URI at Power Automate
 and for key type in **api-kpi** amd paste the key 
+
+![09 HTTP Copy](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/51a0fd77-34cf-4992-b1dd-147a8b63e80e)
+
 
 

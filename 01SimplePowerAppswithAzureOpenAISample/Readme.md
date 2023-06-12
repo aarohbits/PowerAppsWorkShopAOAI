@@ -51,7 +51,7 @@ Rename the flow, add new step, add new HTTP action and set to post
 
 # Step 7 
 
-Nagivate to the Azure portal, under playground select **Compleltions** >> Select Question answring >> select the **View code**
+Nagivate to the Azure portal, under playground select **Compleltions** >> Select **Question answring** >> select the **View code**
 
 
 ![07 Az Open AI - Competions - Questions - View Code](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/4be798ee-1063-4f6a-8b41-147e2f4245e5)

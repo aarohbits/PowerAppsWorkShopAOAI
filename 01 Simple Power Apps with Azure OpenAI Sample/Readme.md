@@ -4,4 +4,4 @@ In this example you will able to use Power Apps as front end for end users to as
 
 ## Step 1
 
-![Test](<images/01 Canvas App.png>)
+![Alt text](images/01CanvasApp.png)

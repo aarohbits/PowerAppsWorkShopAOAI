@@ -27,7 +27,21 @@ Please 3 controls
 
 ![03 Place 3 Controls](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/0b24374d-8a38-4691-8ce7-63a8efd693fa)
 
-Test from Local
+# Step 4 
+
+Add a new flow from Cavas apps 
 
 
-![My Local](images/01CanvasApp.png)
+# Step 5 
+
+Add new blank flow 
+
+# Step 6 
+
+Rename the flow, add new step, add new HTTP action and set to post 
+
+# Step 7 
+
+Nagivate to the Azure portal, under playground select Compleltions >> Select Question answring >> select the view code
+
+

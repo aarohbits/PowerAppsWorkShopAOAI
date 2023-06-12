@@ -29,4 +29,4 @@ Please 3 controls
 
 Test from Local
 
-![Local](img/01CanvasApp.png)
+![Local](../img/01CanvasApp.png)

@@ -48,6 +48,8 @@ d)	France Central
 ![PowerApps Canvas](<images/01 Power Apps Canvas Controls.png>)
 *** 
 
+
+
 [MIT](http://web.mit.edu)
 
 

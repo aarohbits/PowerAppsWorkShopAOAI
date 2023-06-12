@@ -32,17 +32,29 @@ Please 3 controls
 Add a new flow from Cavas apps 
 
 
+![04 Add Flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/328268e9-e4c8-46bd-8b16-c3a335684fbb)
+
+
 # Step 5 
 
 Add new blank flow 
+
+![05 Add Blank Flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/67d61559-ba7f-472d-aeea-81b5a9c6f756)
+
 
 # Step 6 
 
 Rename the flow, add new step, add new HTTP action and set to post 
 
+![06 Rename flow  - HTTP - Post](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/d185070a-8670-4207-9054-f3f8e1b5a5bb)
+
+
 # Step 7 
 
-Nagivate to the Azure portal, under playground select Compleltions >> Select Question answring >> select the view code
+Nagivate to the Azure portal, under playground select **Compleltions** >> Select **Question answring** >> select the **View code**
+
+
+![07 Az Open AI - Competions - Questions - View Code](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/4be798ee-1063-4f6a-8b41-147e2f4245e5)
 
 # Step 8
 

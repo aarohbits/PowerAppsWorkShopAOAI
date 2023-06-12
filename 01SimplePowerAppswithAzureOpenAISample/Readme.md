@@ -70,5 +70,24 @@ and for key type in **api-kpi** amd paste the key
 
 ![09 HTTP Copy](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/51a0fd77-34cf-4992-b1dd-147a8b63e80e)
 
+# Step 10 
+
+For Body of HTTP, you need a craft JSON content from [Azure OpenAI API refrence](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/reference). 
+
+
+```
+{
+  "prompt": "",
+  "max_tokens": 200,
+  "temperature": 0,
+  "top_p": 1,
+  "frequency_penalty": 0
+}
+
+```
+
+
+# Step 11 
+
 
 

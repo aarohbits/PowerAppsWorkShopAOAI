@@ -25,6 +25,9 @@ Please 3 controls
 - Label 
 
 
-
 ![03 Place 3 Controls](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/0b24374d-8a38-4691-8ce7-63a8efd693fa)
+
+Test from Local
+
+**![Add Flow](<images/04 Add Flow.png>)**
 

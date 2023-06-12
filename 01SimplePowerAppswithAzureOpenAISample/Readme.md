@@ -44,4 +44,15 @@ Rename the flow, add new step, add new HTTP action and set to post
 
 Nagivate to the Azure portal, under playground select Compleltions >> Select Question answring >> select the view code
 
+# Step 8
+
+Copy the Endpoint and Key from Azure OpenAI service
+
+
+
+# Step 9
+
+Copy the URL to URI at Power Automate
+and for key type in **api-kpi** amd paste the key 
+
 

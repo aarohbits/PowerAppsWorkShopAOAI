@@ -5,4 +5,4 @@ In this example you will able to use Power Apps as front end for end users to as
 ## Step 1
 
 Create a new Canvas App. 
-![Power Apps](<images/01 Canvas App.png>)
+![Test](<images/01 Canvas App.png>)

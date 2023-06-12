@@ -4,3 +4,5 @@ In this example you will able to use Power Apps as front end for end users to as
 
 
 ![Power Apps](images/01CanvasApp.png)
+
+![Test](01CanvasApp.png)

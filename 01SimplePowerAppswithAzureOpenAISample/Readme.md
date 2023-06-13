@@ -84,16 +84,26 @@ For Body of HTTP, you need a craft JSON content from [Azure OpenAI API refrence]
   "frequency_penalty": 0
 }
 
-
-
 ```
 
 For getting the question from PowerApps, double click on **Ask in PowerApps** within **prompt**
 
+![10 Ask In PowerApps](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/92742cb8-7e7f-46af-b00f-91115619b7fa)
+
+
+![10 Ask In PowerApps 2](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/e81ad777-798c-4e6c-8420-541214a950e8)
 
 
 
 # Step 11 
 
+In next step, search for **compose** message >> select the **Add dynamic content** >> Under HTTP heading select Body 
+
+![11 Compose Body](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/996d82b3-37f9-46c9-b371-0cdeabdf7199)
+
+
+![12 Compose Body](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/9f0b6713-ad11-4784-8fc6-63359d286a9a)
+
+# Step 12  
 
 

@@ -107,3 +107,33 @@ In next step, search for **compose** message >> select the **Add dynamic content
 # Step 12  
 
 
+At the Canvas App, create a global variable and trigger the flow as follows
+
+```
+Set(gOutout,'13JunePPAzOpenAI'.Run(txtQuestion.Text))
+
+```
+
+# Step 13 
+
+Once the flow is successful, copy the output JSON to a text file that you will use in upcoming steps
+
+
+
+
+# Step 13 
+
+Edit the flow
+
+
+# Step 14
+
+in next step search for Parse JSON, rename the action, select the **Add dynamic content** and select **body**
+
+
+# Step 15 
+
+Now, paste the JSON the content that you copied at Step 13  as follows
+
+
+

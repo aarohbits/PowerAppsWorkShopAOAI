@@ -84,7 +84,13 @@ For Body of HTTP, you need a craft JSON content from [Azure OpenAI API refrence]
   "frequency_penalty": 0
 }
 
+
+
 ```
+
+For getting the question from PowerApps, double click on **Ask in PowerApps** within **prompt**
+
+
 
 
 # Step 11 

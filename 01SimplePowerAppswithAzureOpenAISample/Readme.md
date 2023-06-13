@@ -114,26 +114,102 @@ Set(gOutout,'13JunePPAzOpenAI'.Run(txtQuestion.Text))
 
 ```
 
+Run the Power Apps 
+
+![13 Button Run Flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/6d7dd46a-a9da-4bc4-be51-cd6c71b0a983)
+
+ 
+
 # Step 13 
 
-Once the flow is successful, copy the output JSON to a text file that you will use in upcoming steps
+Once the flow is successful, **copy the output JSON to a text file** that you will use in upcoming steps
+
+~~~
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "object": {
+            "type": "string"
+        },
+        "created": {
+            "type": "integer"
+        },
+        "model": {
+            "type": "string"
+        },
+        "choices": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "text": {
+                        "type": "string"
+                    },
+                    "index": {
+                        "type": "integer"
+                    },
+                    "finish_reason": {
+                        "type": "string"
+                    },
+                    "logprobs": {}
+                },
+                "required": [
+                    "text",
+                    "index",
+                    "finish_reason",
+                    "logprobs"
+                ]
+            }
+        },
+        "usage": {
+            "type": "object",
+            "properties": {
+                "completion_tokens": {
+                    "type": "integer"
+                },
+                "prompt_tokens": {
+                    "type": "integer"
+                },
+                "total_tokens": {
+                    "type": "integer"
+                }
+            }
+        }
+    }
+}
+
+~~~
 
 
+![14 Compose Output JSON](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/f1e8385c-37af-4ac1-92ea-99474679bd1a)
 
 
 # Step 13 
 
 Edit the flow
 
+![15 Edit Flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/742cdd96-e61a-47b9-b1a5-bd29c8c77849)
+
 
 # Step 14
 
 in next step search for Parse JSON, rename the action, select the **Add dynamic content** and select **body**
 
+![16 Parse JSON](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/ba3c7eb8-0bb1-49b5-bdda-62dd9db4f1d8)
+
+
+![17 HTTP Rename Action](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/e64a15e9-09d0-4a10-8271-cf94ee8f63a4)
+
+
+![18 Parse JSON Body](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/a3230873-5909-4a8b-b87e-372d2557ea60)
 
 # Step 15 
 
-Now, paste the JSON the content that you copied at Step 13  as follows
+Now, paste the JSON the content that you copied at **Step 13**  as follows
 
 
+![19 Parse JSON Reanme Paste JSON](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/c8350660-bb26-463b-8ff1-6c2e9ab76dd9)
 

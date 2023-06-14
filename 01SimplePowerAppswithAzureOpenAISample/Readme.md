@@ -259,53 +259,75 @@ Click on the flow link
 
 Copy the output JSON from compose to a text file. You will use in next step 
 
+![26 Copy the Output Compose](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/9d4cf06d-4071-4919-a672-1e863762f674)
+
 
 # Step 23 
 
 Edit the flow
+![27 Edit Flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/2856a94c-2939-41d5-94e7-663591bfbadd)
 
 
 # Step 24 
 
 In Next Step, search for Parse JSON action, select **Add dynamic content** and use outsummary variable 
+![28 Parse JSON Output summary](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/f40bfc52-356b-4cbe-9bd7-2936c52fabd9)
 
 
 # Step 25 
 
 Click on **Generate from Sample** button
 
+![29 Parse JSON  Generate Sample](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/ad47ef47-444e-409b-83c1-2dbb19ea52d1)
+
+
 # Step 26
 
 Paste the JSON content that you copied from Step 22 
+![30 Paste JSON cONTENT FROM previois step](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/b97fb88c-e375-4215-bb09-8c3fbf8f89d1)
 
-IMAGE
+![31 Paste JSON cONTENT FROM previois step](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/3400435a-e8ee-42c9-92d2-b52708e27d37)
 
-IMAGE 
+
 
 
 # Step 27 
 In next step, search for **Respond to a PowerApp or flow action** 
+
+![32 Respond to Poweer Apps  or flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/38b2c7d1-4fa5-4d5e-96c1-1217045c54b3)
 
 
 # Step 28 
 
 Add text input variable called **response** and use **text** from Parse JSON 
 
+![33 Output Summary](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/4689890d-9a07-4334-8b3a-95eb39c6924a)
 
 # Step 29 
 
 Save the flow 
 
+![33 Save flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/0c92eec3-4b3f-46e2-83f2-83481000f5e7)
+
+
 # Step 30 
 
-Set the response variable at the **Get Answer** 
+Back to Power Apps, Set the response variable at the **Get Answer** 
+![34 Adjust Flow Response](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/b0383ae5-b96e-4693-8277-63748e7a13c6)
 
 
 # Step 31 
 
 Assign gOutput the label control 
 
+![35  Output label](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/1ad7ae76-95ca-4b83-9e4b-0a8b7ac24056)
 
+# Step 32 
+
+Run the Power Apps, ask question, click on Get Anwser and anwser is shown at output label
+
+
+![36 Final Output](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/09d2473d-2d4c-4dea-ab5c-f30f7e3cd6e6)
 
 
 

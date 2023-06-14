@@ -288,7 +288,14 @@ Paste the JSON content that you copied from Step 22
 
 ![31 Paste JSON cONTENT FROM previois step](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/3400435a-e8ee-42c9-92d2-b52708e27d37)
 
-
+~~~
+{
+    "text": "\n\nPower Apps help with digital transformation by providing a platform for businesses to quickly and easily create custom applications that can be used to automate processes, streamline operations, and improve customer experiences. Power Apps can be used to create applications that can be used to capture data, automate processes, and integrate with other systems. This helps businesses to quickly and easily create applications that can be used to improve customer experiences, increase efficiency, and reduce costs. Additionally, Power Apps can be used to create applications that can be used to create custom reports, dashboards, and analytics. This helps businesses to gain insights into their operations and make better decisions.",
+    "index": 0,
+    "finish_reason": "stop",
+    "logprobs": null
+  }
+~~~
 
 
 # Step 27 

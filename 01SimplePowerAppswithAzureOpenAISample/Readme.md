@@ -213,3 +213,16 @@ Now, paste the JSON the content that you copied at **Step 13**  as follows
 
 ![19 Parse JSON Reanme Paste JSON](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/c8350660-bb26-463b-8ff1-6c2e9ab76dd9)
 
+
+# Step 16 
+
+
+In next step, create a new varibale, initialize varibale called **outsummary** with string data datatype
+
+# Step 17 
+
+In next step, search of **apply to each** control, select **Add dynamic content** and select **choices** from Parse JSON from above steps 
+
+
+# Step 18 
+Within **apply to each** control, select a set variable and in the value property set the **Current item** 

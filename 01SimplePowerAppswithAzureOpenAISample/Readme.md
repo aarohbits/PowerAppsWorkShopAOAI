@@ -254,3 +254,63 @@ Click on the flow link
 
 ![25 Click on flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/b39d7f81-c9bb-467b-a96e-64c720852b52)
 
+
+# Step 22 
+
+Copy the output JSON from compose to a text file. You will use in next step 
+
+
+# Step 23 
+
+Edit the flow
+
+
+# Step 24 
+
+In Next Step, search for Parse JSON action, select **Add dynamic content** and use outsummary variable 
+
+
+# Step 25 
+
+Click on **Generate from Sample** button
+
+# Step 26
+
+Paste the JSON content that you copied from Step 22 
+
+IMAGE
+
+IMAGE 
+
+
+# Step 27 
+In next step, search for **Respond to a PowerApp or flow action** 
+
+
+# Step 28 
+
+Add text input variable called **response** and use **text** from Parse JSON 
+
+
+# Step 29 
+
+Save the flow 
+
+# Step 30 
+
+Set the response variable at the **Get Answer** 
+
+
+# Step 31 
+
+Assign gOutput the label control 
+
+
+
+
+
+
+
+
+
+

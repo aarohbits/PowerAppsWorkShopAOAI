@@ -111,7 +111,6 @@ At the Canvas App, create a global variable and trigger the flow as follows
 
 ```
 Set(gOutout,'13JunePPAzOpenAI'.Run(txtQuestion.Text))
-
 ```
 
 Run the Power Apps 
@@ -180,7 +179,6 @@ Once the flow is successful, **copy the output JSON to a text file** that you wi
         }
     }
 }
-
 ~~~
 
 
@@ -216,13 +214,21 @@ Now, paste the JSON the content that you copied at **Step 13**  as follows
 
 # Step 16 
 
-
 In next step, create a new varibale, initialize varibale called **outsummary** with string data datatype
+
+![20 Init Var outsummary](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/f051c8f2-2bea-4e0f-bd4d-12883ad5a3f9)
+
 
 # Step 17 
 
-In next step, search of **apply to each** control, select **Add dynamic content** and select **choices** from Parse JSON from above steps 
+In next step, search of **apply to each** control, select **Add dynamic content** and select **choices** from Parse JSON from above steps
+
+![21 Apply to each](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/08b8ef7d-0d69-4296-9fb5-a85a56ba5eee)
+
 
 
 # Step 18 
 Within **apply to each** control, select a set variable and in the value property set the **Current item** 
+
+![22 Apply to each - Current Item](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/ba9c2910-3bbe-41df-b9a1-36558428d21b)
+

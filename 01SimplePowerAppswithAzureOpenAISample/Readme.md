@@ -237,14 +237,20 @@ Within **apply to each** control, select a set variable and in the value propert
 
 Go back to Canvas app, select the flow 
 
+![23 Canvas App - Refresh PA](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/055f29c5-b0c6-4c5c-89cc-ca9c7ba0fa06)
 
-# Step 2- 
+
+# Step 20
 
 Type a question in textbox and cilck on Submit button 
+
+![24 Canvas App - Run the flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/5eaa9e76-ada2-47c9-8794-bb19dc6094a0)
 
 
 # Step 21 
 
 Click on the flow link 
 
+
+![25 Click on flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/b39d7f81-c9bb-467b-a96e-64c720852b52)
 

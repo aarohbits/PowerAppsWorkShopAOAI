@@ -232,3 +232,19 @@ Within **apply to each** control, select a set variable and in the value propert
 
 ![22 Apply to each - Current Item](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/ba9c2910-3bbe-41df-b9a1-36558428d21b)
 
+
+# Step 19 
+
+Go back to Canvas app, select the flow 
+
+
+# Step 2- 
+
+Type a question in textbox and cilck on Submit button 
+
+
+# Step 21 
+
+Click on the flow link 
+
+

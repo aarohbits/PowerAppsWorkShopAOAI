@@ -195,15 +195,16 @@ Within apply to each control, select a **set variable** and in the value propert
 
 Go back to Canvas app, select the flow
 
-![23 Canvas App - Refresh PA](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/35e22edd-f418-4065-8866-14c9b128f525)
+![19 Parse JSON Reanme Paste JSON](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/e5deb8ce-3dbc-47f4-b10f-1ff4b2c9319f)
 
 
 ## Step 20
 
-Type a question in textbox and cilck on Submit button 
+Type a question in textbox and cilck on **Summarize Text** button 
 
 
-![24 Canvas App - Run the flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/3efa4403-180d-4711-baa0-b921f27041e0)
+![24 Canvas App - Run the flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/70c040eb-6a31-4f00-98b2-f642a1e374c6)
+
 
 ## Step 21
 
@@ -278,22 +279,58 @@ Save the flow
 ## Step 30 
 
 
-Back to Power Apps, Set the response variable at the Get Answer
+Back to Power Apps, 
 
-![34 Adjust Flow Response](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/5e5dec80-510b-4d50-a2b1-037129ab9905)
+a) Set the response variable at the **Summarize Text** Button
+
+![39 - Summarize Text](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/d1c07d51-6075-41ac-b994-cfde95e9d8fd)
+
+
+b) Set the response variable at the **SQL** Button
+
+![40 SQL](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/77f479fa-76fe-472c-a5cd-388ecdb6d0fc)
+
+
+c) Set the response variable at the **Classify Text** Button
+
+![41 Classify ](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/77746ea7-ffb0-4a98-885b-184dfefee3bb)
+
+
+d) Set the response variable at the **Parsed Unstructured** Button 
+
+
+![42 Unstrcuted](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/f49e1e56-532a-48b7-a0ff-2d965078f19d)
+
+e) Set the response variable at the **Classify** Button
+
+![43 Classfiy](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/d33aa772-f1b4-442f-b6d3-800d0c51568c)
+
 
 
 ## Step  31 
 
 Assign gOutput the label control
 
-![35  Output label](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/be7187b7-4e13-4296-aa22-dbf70c9a4ca1)
+
+![36 Final Output](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/6e61d0d2-ad4c-4e96-8024-eb69132e7327)
 
 
 ## Step 32
 
-Run the Power Apps, ask question, click on Get Anwser and anwser is shown at output label
+Run the Power Apps, ask question, click on buttons and anwser is shown at output label
 
-![36 Final Output](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/3084d58b-cb9b-4d59-ade9-59e93f62c415)
+![50 Final Summarize](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/dad2a248-ec2f-4779-8ce9-15b206ef0dc5)
+
+![51 Final SQL](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/bc9b633c-320c-4b8e-a5c9-32a5fa3a50e9)
+
+![52  Final Classify Text](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/8747b417-e950-4d43-96c5-7ef4abefa3fe)
+
+
+![53 Unstsrcu](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/519ab059-bbff-4ff7-84f0-67f627e35b69)
+
+![54 Classify](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/bcf6f7ac-ccf6-420d-9126-382468cf9f70)
+
+
+
 
 

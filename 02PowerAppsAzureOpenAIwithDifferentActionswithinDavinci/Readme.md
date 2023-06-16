@@ -75,6 +75,11 @@ For Body of HTTP, you need a craft JSON content from [Azure OpenAI API refrence]
 ~~~
 
 For getting the question from PowerApps, **double click** on Ask in PowerApps within prompt
+![07 Ask In PowerApps](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/be46e497-9ad1-435b-b617-9ba3d71e6a97)
+
+
+![08 Ask In PowerApps ](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/84084e60-a7e7-4841-b315-11e8c05e9e8f)
+
 
 
 ## Step 09 
@@ -86,17 +91,7 @@ In next step, search for **compose** message >> select the **Add dynamic content
 
 ![12 Compose Body](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/9f0b6713-ad11-4784-8fc6-63359d286a9a)
 
-
 ## Step 10 
-
-In next step, search for **compose** message >> select the **Add dynamic content** >> Under HTTP heading select Body 
-
-![11 Compose Body](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/996d82b3-37f9-46c9-b371-0cdeabdf7199)
-
-
-![12 Compose Body](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/9f0b6713-ad11-4784-8fc6-63359d286a9a)
-
-## Step 11 
 
 
 At the Canvas App, create a global variable and trigger the flow as follows
@@ -104,6 +99,13 @@ At the Canvas App, create a global variable and trigger the flow as follows
 ```
 Set(gOpenAIText, '16JunePPAzireOpenAIFlow'.Run(txtQuestion.Text))
 ```
+
+![11 Canvas App FLow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/170b73d7-9f13-4e66-8b8e-6e6f93906e71)
+
+and run the Power App
+
+
+![11 Canvas App FLow 2](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/aa7d9937-463b-4910-a647-43506f7777f4)
 
 
 ## Step 12
@@ -133,6 +135,13 @@ Once the flow is successful, copy the output JSON to a text file that you will u
 }
 ~~~
 
+![12 Flow Run'](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/912de84f-9ad3-417a-b22d-9742173ec2ab)
+
+![10 Compose Body 2](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/68dc00d4-1f72-4231-95f5-2ab033ec70b3)
+
+
 ## Step 13 
 
 Edit the flow 
+![13 Edit Flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/a5dc3afb-e85e-4e57-a1eb-3583d7985fed)
+

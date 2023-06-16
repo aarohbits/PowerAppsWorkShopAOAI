@@ -145,3 +145,85 @@ Once the flow is successful, copy the output JSON to a text file that you will u
 Edit the flow 
 ![13 Edit Flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/a5dc3afb-e85e-4e57-a1eb-3583d7985fed)
 
+
+## Step 14 
+
+In next step search for Parse JSON, rename the action, select the Add dynamic content and select body
+
+## Step 15
+
+Now, paste the JSON the content that you copied at Step 12 as follows
+
+
+## Step 16 
+
+In next step, create a new varibale, initialize varibale called outsummary with string data datatype
+
+
+## Step 17
+
+In next step, search of apply to each control, select Add dynamic content and select choices from Parse JSON from above steps
+
+## Step 18 
+
+Within apply to each control, select a set variable and in the value property set the Current item
+
+## Step 19 
+
+Go back to Canvas app, select the flow
+
+## Step 20
+
+Type a question in textbox and cilck on Submit button 
+
+## Step 21
+
+Click on the flow link 
+
+
+## Step 22 
+
+Copy the output JSON from compose to a text file. You will use in next step
+
+## Step 23 
+
+Edit the flow 
+
+## Step 24  
+
+In Next Step, search for Parse JSON action, select Add dynamic content and use outsummary variable
+
+## Step 25 
+
+Click on Generate from Sample button 
+
+## Step 26 
+
+Paste the JSON content that you copied from Step 22
+
+## Step 27
+
+In next step, search for Respond to a PowerApp or flow action
+
+## Step 28 
+
+Add text input variable called response and use text from Parse JSON
+
+## Step 29 
+
+
+Save the flow
+
+## Step 30 
+
+
+Back to Power Apps, Set the response variable at the Get Answer
+
+## Step  31 
+
+Assign gOutput the label control
+
+## Step 32
+
+Run the Power Apps, ask question, click on Get Anwser and anwser is shown at output label
+

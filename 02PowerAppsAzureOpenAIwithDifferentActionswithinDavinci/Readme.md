@@ -150,9 +150,21 @@ Edit the flow
 
 In next step search for Parse JSON, rename the action, select the Add dynamic content and select body
 
+![16 Parse JSON](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/82cddbde-6e9b-4973-9278-42a29991cd9f)
+
+![17 HTTP Rename Action](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/29a2d600-6ebe-46ef-9227-baa7ad276725)
+
+![18 Parse JSON Body](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/40f56a61-68db-428a-9828-7c4c07005c43)
+
+
+
+
 ## Step 15
 
 Now, paste the JSON the content that you copied at Step 12 as follows
+
+
+![19 Parse JSON Reanme Paste JSON](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/1397c29e-a644-4816-aa0a-c95358c02b98)
 
 
 ## Step 16 
@@ -160,70 +172,128 @@ Now, paste the JSON the content that you copied at Step 12 as follows
 In next step, create a new varibale, initialize varibale called outsummary with string data datatype
 
 
+![20 Init Var outsummary](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/bf3aea0e-eedc-4325-a04f-6945ddfcd2ad)
+
+
 ## Step 17
 
-In next step, search of apply to each control, select Add dynamic content and select choices from Parse JSON from above steps
+In next step, search of **apply to each** control, select **Add dynamic content** and select **choices** from Parse JSON from above steps
+
+![21 Apply to each](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/7d5ccc70-1395-487b-adf8-0edc4a378d4a)
+
+
+![22 Apply to each - Choices](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/109f7516-a713-4506-b377-e783054c2f44)
 
 ## Step 18 
 
-Within apply to each control, select a set variable and in the value property set the Current item
+Within apply to each control, select a **set variable** and in the value property set the **Current item**
+
+![22 Apply to each - Current Item](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/6ef6309c-ef7e-4404-b7fb-5fc3cbc6194f)
+
 
 ## Step 19 
 
 Go back to Canvas app, select the flow
 
+![23 Canvas App - Refresh PA](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/35e22edd-f418-4065-8866-14c9b128f525)
+
+
 ## Step 20
 
 Type a question in textbox and cilck on Submit button 
 
+
+![24 Canvas App - Run the flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/3efa4403-180d-4711-baa0-b921f27041e0)
+
 ## Step 21
 
 Click on the flow link 
+
+![25 Click on flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/8ac78c92-ff7c-4be5-b9c2-1acee575a8cf)
+
 
 
 ## Step 22 
 
 Copy the output JSON from compose to a text file. You will use in next step
 
+![26 Copy the Output Compose](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/49e3d949-df1a-43ac-b5df-3e3c1aaeb0d8)
+
+
 ## Step 23 
 
 Edit the flow 
 
+![27 Edit Flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/411aecec-6e1f-4ce7-a859-3bcd8b0418bc)
+
+
 ## Step 24  
 
-In Next Step, search for Parse JSON action, select Add dynamic content and use outsummary variable
+In Next Step, search for **Parse JSON action**, select **Add dynamic content** and use outsummary variable
+
+![28 Parse JSON Output summary](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/2aa540ee-dfc8-4f16-91c2-34e22c0d1bdb)
+
+
+
 
 ## Step 25 
 
-Click on Generate from Sample button 
+Click on **Generate from Sample** button 
+
+
+![29 Parse JSON  Generate Sample](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/565e78eb-2a57-489f-938d-1552626df104)
 
 ## Step 26 
 
 Paste the JSON content that you copied from Step 22
 
+![30 Paste JSON cONTENT FROM previois step](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/f105f380-19a3-40ae-a783-af19e476ede5)
+
+
+![31 Paste JSON cONTENT FROM previois step](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/0e0bc93f-ad2d-44e9-9454-8c0ce2caf476)
+
 ## Step 27
 
-In next step, search for Respond to a PowerApp or flow action
+In next step, search for **Respond to a PowerApp or flow** action
+
+![32 Respond to Poweer Apps  or flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/d673d3b3-7aaf-4339-b2b2-52b9657dec83)
+
 
 ## Step 28 
 
-Add text input variable called response and use text from Parse JSON
+Add text input variable called **response** and use **text**
+
+from Parse JSON
+![33 Output Summary](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/a6f5941a-84e8-4309-b031-f899da8cd505)
+
+
 
 ## Step 29 
 
-
 Save the flow
+
+![33 Save flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/fa25242c-9446-4840-9ead-0ce78242220f)
+
 
 ## Step 30 
 
 
 Back to Power Apps, Set the response variable at the Get Answer
 
+![34 Adjust Flow Response](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/5e5dec80-510b-4d50-a2b1-037129ab9905)
+
+
 ## Step  31 
 
 Assign gOutput the label control
 
+![35  Output label](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/be7187b7-4e13-4296-aa22-dbf70c9a4ca1)
+
+
 ## Step 32
 
 Run the Power Apps, ask question, click on Get Anwser and anwser is shown at output label
+
+![36 Final Output](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/3084d58b-cb9b-4d59-ade9-59e93f62c415)
+
 

@@ -57,3 +57,82 @@ Copy the Endpoint and Key from Azure OpenAI service
 Copy the URL to URI at Power Automate and for key type in api-key amd paste the key 
 
 ![06 HTTP Copy](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/551d396c-b5cf-4755-acb3-add7cd7bf5ac)
+
+## Step 8 
+
+For Body of HTTP, you need a craft JSON content from [Azure OpenAI API refrence](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/reference).
+
+
+~~~
+{
+  "prompt": "",
+  "max_tokens": 200,
+  "temperature": 0,
+  "top_p": 1,
+  "frequency_penalty": 0
+}
+
+~~~
+
+For getting the question from PowerApps, **double click** on Ask in PowerApps within prompt
+
+
+## Step 09 
+
+In next step, search for **compose** message >> select the **Add dynamic content** >> Under HTTP heading select Body 
+
+![11 Compose Body](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/996d82b3-37f9-46c9-b371-0cdeabdf7199)
+
+
+![12 Compose Body](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/9f0b6713-ad11-4784-8fc6-63359d286a9a)
+
+
+## Step 10 
+
+In next step, search for **compose** message >> select the **Add dynamic content** >> Under HTTP heading select Body 
+
+![11 Compose Body](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/996d82b3-37f9-46c9-b371-0cdeabdf7199)
+
+
+![12 Compose Body](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/9f0b6713-ad11-4784-8fc6-63359d286a9a)
+
+## Step 11 
+
+
+At the Canvas App, create a global variable and trigger the flow as follows
+
+```
+Set(gOpenAIText, '16JunePPAzireOpenAIFlow'.Run(txtQuestion.Text))
+```
+
+
+## Step 12
+
+
+Once the flow is successful, copy the output JSON to a text file that you will use in upcoming steps 
+
+~~~
+{
+  "id": "cmpl-7S9Cbnovtz5bYPzna5TK8dW7gnZV7",
+  "object": "text_completion",
+  "created": 1686942913,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nPower Apps is a powerful and easy-to-use platform for creating custom business applications. It is a low-code platform that enables users to quickly create applications without the need for coding. It is a great tool for businesses to quickly create applications that can be used to automate processes, improve customer service, and increase efficiency. Power Apps is also popular because it is cloud-based, meaning that applications can be accessed from anywhere with an internet connection. Additionally, Power Apps integrates with other Microsoft products, such as Office 365, Dynamics 365, and Azure, making it easy to create applications that are connected to existing data sources.",
+      "index": 0,
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ],
+  "usage": {
+    "completion_tokens": 127,
+    "prompt_tokens": 6,
+    "total_tokens": 133
+  }
+}
+~~~
+
+## Step 13 
+
+Edit the flow 

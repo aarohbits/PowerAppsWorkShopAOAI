@@ -342,12 +342,6 @@ After few seconds, a new messages shows up from Azure OpenAI.
 ![34 Teams Message](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/a12510b1-a7ee-4ad1-8454-2c335481f5e9)
 
 
-# Step 32 
-
-Run the Power Apps, ask question, click on Get Anwser and anwser is shown at output label
-
-
-![34 Teams Message](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/28aac027-cb00-4636-b0ae-2220fe231cbb)
 
 
 

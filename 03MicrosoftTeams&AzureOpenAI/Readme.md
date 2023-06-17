@@ -224,37 +224,51 @@ Within **apply to each** control, select a set variable and in the value propert
 
 # Step 19 
 
-Go back to Canvas app, select the flow 
+Click on runnning flow 
 
-![23 Canvas App - Refresh PA](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/055f29c5-b0c6-4c5c-89cc-ca9c7ba0fa06)
+![19 run of flow run](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/897d65d2-bc66-42c0-8bce-8989389ed068)
 
 
 # Step 20
 
-Type a question in textbox and cilck on Submit button 
+Copy the output JSON from compose to a text file. You will use in next step
 
-![24 Canvas App - Run the flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/5eaa9e76-ada2-47c9-8794-bb19dc6094a0)
+~~~
+{
+    "text": "\n\nPower Platform governance is critical because it helps ensure that the platform is used in a secure, compliant, and efficient manner. It also helps ensure that the platform is used in a way that meets the organization's business objectives. Governance helps ensure that the platform is used in a way that is consistent with the organization's policies and procedures, and that it is used in a way that is compliant with applicable laws and regulations. Additionally, governance helps ensure that the platform is used in a way that is cost-effective and that it is used in a way that maximizes the value of the platform for the organization.",
+    "index": 0,
+    "finish_reason": "stop",
+    "logprobs": null
+  }
+~~~
+
+
+![20 Copy Output from Compose Message](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/26b9eb19-1637-4124-8e8c-37c6ebad6e56)
 
 
 # Step 21 
 
-Click on the flow link 
+Edit the flow 
 
 
-![25 Click on flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/b39d7f81-c9bb-467b-a96e-64c720852b52)
+![21 Edit Flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/3669d08f-16cd-41cf-8281-ff6ac47f7841)
+
 
 
 # Step 22 
 
-Copy the output JSON from compose to a text file. You will use in next step 
+In next step, search of Parse JSON, select **outsummary**, click on **Generate from Sample**
 
-![26 Copy the Output Compose](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/9d4cf06d-4071-4919-a672-1e863762f674)
-
+![22 Parse JSON 1](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/880f0c4b-cbf2-4b67-a5e6-1c9e8bfb9faa)
 
 # Step 23 
 
-Edit the flow
-![27 Edit Flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/2856a94c-2939-41d5-94e7-663591bfbadd)
+Paste the JSON content that you copied from Step 20 
+
+
+![24 Parse JSON - Generte from Sample PASTE JSON ](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/34a30db2-03c0-43dc-b55f-e8b45e87a19a)
+
+![25 Parsse JSON NExt Step](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/c8eec182-0116-4f48-bf8b-661d6e22c956)
 
 
 # Step 24 
@@ -273,9 +287,7 @@ Click on **Generate from Sample** button
 # Step 26
 
 Paste the JSON content that you copied from Step 22 
-![30 Paste JSON cONTENT FROM previois step](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/b97fb88c-e375-4215-bb09-8c3fbf8f89d1)
 
-![31 Paste JSON cONTENT FROM previois step](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/3400435a-e8ee-42c9-92d2-b52708e27d37)
 
 ~~~
 {
@@ -286,44 +298,51 @@ Paste the JSON content that you copied from Step 22
   }
 ~~~
 
+![30 Paste JSON cONTENT FROM previois step](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/b97fb88c-e375-4215-bb09-8c3fbf8f89d1)
+
+![31 Paste JSON cONTENT FROM previois step](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/3400435a-e8ee-42c9-92d2-b52708e27d37)
 
 # Step 27 
-In next step, search for **Respond to a PowerApp or flow action** 
+In next step, search for **Reply with a message in a channel** 
 
 ![32 Respond to Poweer Apps  or flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/38b2c7d1-4fa5-4d5e-96c1-1217045c54b3)
 
+![30 Reply with a message in a channel](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/f9eeaf05-44b2-4cb3-a19c-10c0527a1460)
 
-# Step 28 
+# Step 28
 
-Add text input variable called **response** and use **text** from Parse JSON 
+From **Add dynamic content** 
+- search for **Message id**
+- Select Team
+- Select Channel
+- Select **text** from Message
 
-![33 Output Summary](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/4689890d-9a07-4334-8b3a-95eb39c6924a)
-
-# Step 29 
-
-Save the flow 
-
-![33 Save flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/0c92eec3-4b3f-46e2-83f2-83481000f5e7)
-
-
-# Step 30 
-
-Back to Power Apps, Set the response variable at the **Get Answer** 
-![34 Adjust Flow Response](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/b0383ae5-b96e-4693-8277-63748e7a13c6)
+![31 Message text](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/612186e4-070a-4dc6-b5c4-d1a009ae3203)
 
 
-# Step 31 
+# Step 29
 
-Assign gOutput the label control 
+Save the flow
 
-![35  Output label](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/1ad7ae76-95ca-4b83-9e4b-0a8b7ac24056)
+![32 Save flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/60044cc3-c865-4a73-ba7f-4f4aa0134c60)
 
-# Step 32 
+# Step 30
 
-Run the Power Apps, ask question, click on Get Anwser and anwser is shown at output label
+Create a  **New Conversation** within **OpenAI messages** in Teams
 
 
-![36 Final Output](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/09d2473d-2d4c-4dea-ab5c-f30f7e3cd6e6)
+![33 Test Message in Teams](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/7047fc32-1ff6-4758-a1a8-75fd22bd20cd)
+
+
+# Step 31
+
+After few seconds, a new messages shows up from Azure OpenAI. 
+
+
+![34 Teams Message](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/a12510b1-a7ee-4ad1-8454-2c335481f5e9)
+
+
+
 
 
 

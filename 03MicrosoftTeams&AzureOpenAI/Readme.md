@@ -78,17 +78,37 @@ In next step, search for **compose** message >> select the **Add dynamic content
 # Step 12  
 
 
-At the Canvas App, create a global variable and trigger the flow as follows
+a) Test the flow
 
-```
-Set(gOutout,'13JunePPAzOpenAI'.Run(txtQuestion.Text))
-```
+![15 Test Flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/f0841b51-dd9b-4d7a-a5f5-cffbe03066ea)
 
-Run the Power Apps 
+b) Perform Manual Test
 
-![13 Button Run Flow](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/6d7dd46a-a9da-4bc4-be51-cd6c71b0a983)
+![15 Test Flow 2](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/25b0d289-508f-4daa-bd50-1ca771c4dc7a)
+
+c) Add a new message to the channel 
+
+![15 Test Flow 3](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/48f91299-28b0-4517-a313-6f666a063cde)
+
+# Step 13 
+
+Type a question in Teams channel (within OpenAI messages) 
+
+![16 Teams Message](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/f0aeba42-dac5-45b6-af40-97d127515981)
+
+# Step 14 
+
+Test the flow 
+
+
+
+ ![17 Flow Test](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/91f916ed-bfbf-4608-9f44-9b3bd3e6f62e)
+
+ Test within Teams 
 
  
+![18 Teams message](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/af8786f1-7b1f-495e-9007-10d3437d4cbb)
+
 
 # Step 13 
 
@@ -167,23 +187,21 @@ Edit the flow
 
 in next step search for Parse JSON, rename the action, select the **Add dynamic content** and select **body**
 
-![16 Parse JSON](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/ba3c7eb8-0bb1-49b5-bdda-62dd9db4f1d8)
+![22 Parse JSON 1](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/14f3f640-fce5-4579-94f1-45f3580fe0e5)
 
 
-![17 HTTP Rename Action](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/e64a15e9-09d0-4a10-8271-cf94ee8f63a4)
+![23 Parse JSON - Generte from Sample](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/eba3b962-a11b-43bd-a0fb-292c27d32106)
 
 
-![18 Parse JSON Body](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/a3230873-5909-4a8b-b87e-372d2557ea60)
+
+![24 Parse JSON - Generte from Sample PASTE JSON ](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/0f77561a-10d0-468c-b14d-4b7cfffb8e15)
+
+
+
+![25 Parsse JSON NExt Step](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/c29327a9-df58-4e0d-89b8-7bd732d2676a)
+
 
 # Step 15 
-
-Now, paste the JSON the content that you copied at **Step 13**  as follows
-
-
-![19 Parse JSON Reanme Paste JSON](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/c8350660-bb26-463b-8ff1-6c2e9ab76dd9)
-
-
-# Step 16 
 
 In next step, create a new varibale, initialize varibale called **outsummary** with string data datatype
 

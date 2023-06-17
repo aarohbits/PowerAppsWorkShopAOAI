@@ -182,4 +182,74 @@ In my example **host** is as follows
 and **default** parameter is as follows
 ![07 Az default](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/465a40fa-721a-4105-9690-11b459387946)
 
+- **NOTE** DONT Modify the other **default** of '2022-12-01'
+
+![15 DONT MODIFY other Default](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/0c3cd96d-0402-4351-a5b5-9ef1617ba62d)
+
+## Step 6
+
+Update Connector logo and verify host. Click on Security. 
+
+![08 Update logo and verify the Host](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/54c4ec3c-125f-4c6a-bad6-9f80683777e6)
+
+## Step 7 
+
+Keep default settings of **Security** page and click next. 
+
+![09 Security Key](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/7e4ec938-d995-413c-9308-302adaf6dfde)
+
+## Step 8 
+
+Keep default settings of **Definitions** page and click next. 
+
+![10 Definations](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/fc35eee2-9ab9-4bfc-89f4-68caa91a8606)
+
+## Step 9 
+
+Keep default settings of **Code (preview)** page and click next. 
+
+![11 Code Preview](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/eade8440-bf7a-4c07-8d09-769381557798)
+
+
+## Step 10 
+
+- Select the new connector
+- Enter the API Key from pop up window
+- Click on Update Connector 
+
+![12 Update Connector](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/db6928e6-320a-4f5b-9fca-72581dc079cd)
+
+## Step 11
+
+- Type a question at the prompt
+- max-token to 300
+- temperature to 1
+- Click on **Test Operation**
+
+![13 TEst Connector](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/c72d9c43-66a0-4e4c-862c-41b98d4e27d9)
+
+
+## Step 12
+
+200 Reponse means API call is successful
+![14 Successful Test](https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/35063ed0-a9a1-4006-8a6e-e5495bc39113)
+
+
+## Step 12 - Video on how to use Custom Connector with Power Automate 
+
+
+https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/ca56ffce-6eef-4c79-a93c-fc8688201b6d
+
+
+## Step 13 -  Video on how to use Custom Connector with Power Apps 
+
+
+
+https://github.com/aarohbits/PowerAppsWorkShopAOAI/assets/35991723/4e141a7a-3f76-4904-be4d-bd3c6c6a8089
+
+
+
+
+
+
 

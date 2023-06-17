@@ -1,6 +1,6 @@
-# PowerAppsWorkShopAOAI
+# Power Platform Workshop with Azure OpenAI
 
-# Overview 
+## Overview 
 
 Integration of Power Platform with Azure OpenAI Labs
 

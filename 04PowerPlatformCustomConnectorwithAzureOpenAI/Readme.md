@@ -3,7 +3,7 @@
 This inspired is Microsoft MVP CHRIS O'BRIEN blogpost [Power Platform Custom Connector for Azure OpenAI](https://www.sharepointnutsandbolts.com/2023/02/call-chatgpt-gpt-3-from-power-apps-power-automate.html)
 In this example you will able to 
 - Use Power PLatform custom connector for Azure OpenAI
-- Modiifications of Swagger file
+- Modifications of Swagger file
 - Test the connector
 - Usage of the connector within Power Automate
 

@@ -53,15 +53,15 @@ d)	France Central
 
 ### Each Sample traget a use case. 
 
-#### 01 Power Apps with Azure OpenAI to ask questions from users
+#### 01 [Power Apps with Azure OpenAI to ask questions from users](https://github.com/aarohbits/PowerAppsWorkShopAOAI/blob/main/01SimplePowerAppswithAzureOpenAISample/Readme.md)
 #### 02 [How to leverage Power Apps with Azure OpenAI](https://github.com/aarohbits/PowerAppsWorkShopAOAI/blob/main/02PowerAppsAzureOpenAIwithDifferentActionswithinDavinci/Readme.md)
 - Summarize Text
 - SQL
 - Classify Text
 - Parsed Unstructured
 - Classify 
-#### 03 How to leverage Microsoft Teams bot with Azure OpenAI
-#### 04 How to leverage Custom Connector with Azure OpenAI  
+#### 03 [How to leverage Microsoft Teams bot with Azure OpenAI](https://github.com/aarohbits/PowerAppsWorkShopAOAI/blob/main/03MicrosoftTeams%26AzureOpenAI/Readme.md)
+#### 04 [How to leverage Custom Connector with Azure OpenAI](https://github.com/aarohbits/PowerAppsWorkShopAOAI/blob/main/04PowerPlatformCustomConnectorwithAzureOpenAI/Readme.md)  
 
 
 

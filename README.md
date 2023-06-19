@@ -1,6 +1,6 @@
-# PowerAppsWorkShopAOAI
+# Power Platform Workshop with Azure OpenAI
 
-# Overview 
+## Overview 
 
 Integration of Power Platform with Azure OpenAI Labs
 
@@ -34,26 +34,39 @@ d)	France Central
 
 ### Azure OpenAI Prerequisites
 
+1.	**Registration**: Begin by registering for Azure Open AI by visiting the following link: [Azure Open AI Registration](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview). This registration process will provide you access to the Azure Open AI service.
+
+2.	**Resource Creation**: After your registration is approved, log in to the Azure portal and create an Azure Open AI resource. This resource will serve as the foundation for utilizing the Azure Open AI capabilities within your applications and workflows.
 
 
+### Power Platform Prerequisites
 
-## Step 1: Create Power Apps Canvas
+1. Premium Connectors 
 
-•	You will build a Power Apps canvas apps 
-•	Use different controls such as 
-1. Text labels 
-2.	Textbox 
-3. Buttons
-
-![PowerApps Canvas](<images/01 Power Apps Canvas Controls.png>)
-*** 
-Local
-![Test Local ](01SimplePowerAppswithAzureOpenAISample/images/01CanvasApp.jpg)
+- Azure OpenAI requires Premium connector with HTTP action OR with Custom Connctors.
+- Resources
+- (Custom Connector Overview)[https://learn.microsoft.com/en-us/connectors/custom-connectors/]
+- (How to create Custom Connector from scratch)[https://learn.microsoft.com/en-us/connectors/custom-connectors/define-blank]
 
 
+## How does these samples work 
 
-[MIT](http://web.mit.edu)
+### Each Sample traget a use case. 
 
+#### 01 [Power Apps with Azure OpenAI to ask questions from users](https://github.com/aarohbits/PowerAppsWorkShopAOAI/blob/main/01SimplePowerAppswithAzureOpenAISample/Readme.md)
+#### 02 [How to leverage Power Apps with Azure OpenAI](https://github.com/aarohbits/PowerAppsWorkShopAOAI/blob/main/02PowerAppsAzureOpenAIwithDifferentActionswithinDavinci/Readme.md)
+- Summarize Text
+- SQL
+- Classify Text
+- Parsed Unstructured
+- Classify 
+#### 03 [How to leverage Microsoft Teams bot with Azure OpenAI](https://github.com/aarohbits/PowerAppsWorkShopAOAI/blob/main/03MicrosoftTeams%26AzureOpenAI/Readme.md)
+#### 04 [How to leverage Custom Connector with Azure OpenAI](https://github.com/aarohbits/PowerAppsWorkShopAOAI/blob/main/04PowerPlatformCustomConnectorwithAzureOpenAI/Readme.md)  
+
+
+## **HUGE Credit Goes to** 
+1. [Balamurugan Balakreshnan](https://www.linkedin.com/in/balamurugan-balakreshnan/)
+2. [Microsoft MVP Chris O Brien)(https://www.linkedin.com/in/chrisobrienmvp/)
 
 
 

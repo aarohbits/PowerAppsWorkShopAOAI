@@ -64,5 +64,9 @@ d)	France Central
 #### 04 [How to leverage Custom Connector with Azure OpenAI](https://github.com/aarohbits/PowerAppsWorkShopAOAI/blob/main/04PowerPlatformCustomConnectorwithAzureOpenAI/Readme.md)  
 
 
+## **HUGE Credit Goes to** 
+1. [Balamurugan Balakreshnan](https://www.linkedin.com/in/balamurugan-balakreshnan/)
+2. [Microsoft MVP Chris O Brien)(https://www.linkedin.com/in/chrisobrienmvp/)
+
 
 
